@@ -19,7 +19,7 @@
  - $ php artisan db:seed
 
 # Set Up
- - $ php artisan serve (defaule at 127.0.0.1:8000)
+ - $ php artisan serve (default at 127.0.0.1:8000)
 
 # Use
  - http://127.0.0.1:8000/ (will see welcome)
