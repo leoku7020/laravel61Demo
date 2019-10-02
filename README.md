@@ -1,28 +1,29 @@
 # laravel61Demo
 
-# Init
-
 # copy for .env file
- - cp .env.example .env
+ - $ cp .env.example .env
 
 # install vender
- - composer install
+ - $ composer install
 
 # set app key
- - php artisan key:generate
+ - $ php artisan key:generate
 
 # change for your db 
- - Set .env file DB setting
+ - $ Set .env file DB setting
 
 # migrate db table
- - php artisan migrate
+ - $ php artisan migrate
 
 # Seed Testing data
- - php artisan db:seed
+ - $ php artisan db:seed
 
 # Set Up
- - php artisan serve (defaule at 127.0.0.1:8000)
+ - $ php artisan serve (defaule at 127.0.0.1:8000)
 
 # Use
  - http://127.0.0.1:8000/ (will see welcome)
  - http://127.0.0.1:8000/sayHello (will see Hello User)
+
+# Test
+ - $ vendor/phpunit/phpunit/phpunit
